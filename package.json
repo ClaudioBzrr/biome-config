@@ -1,13 +1,16 @@
 {
-	"name": "@claudiobzrr/biome-config",
-	"version": "1.0.0",
-	"main": "biome.json",
-	"description": "",
-	"homepage": "",
-	"keywords": ["biomejs", "biome", "config"],
-	"author": "",
-	"license": "ISC",
-	"peerDependencies": {
-		"@biomejs/biome": "1.7.3"
-	}
+  "name": "@claudiobzrr/biome-config",
+  "version": "1.0.1",
+  "main": "biome.json",
+  "description": "",
+  "homepage": "",
+  "keywords": ["biomejs", "biome", "config"],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": "./biome.json"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "1.7.3"
+  }
 }
